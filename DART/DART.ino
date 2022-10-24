@@ -41,6 +41,10 @@ void setup() {
 void loop() { 
  
   //esperando coneccion (bluetooth) bool para no repetir
+  while(true){
+    //espero a que se conecte
+    break;
+  }
   //esperando params de asteroide
   //esperando senal de inicio de asteriode()
     //iniciar reloj()
