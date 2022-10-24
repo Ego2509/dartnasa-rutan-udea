@@ -1,14 +1,4 @@
 
-#include <SoftwareSerial.h>
-
-int rxPin = 0; //Pin de recepción
-int txPin = 1; //Pin transmisión
-int pinLed = 13;
-
-SoftwareSerial Bluetooth(1, 0);
-
-char bt,Dir;
-float Vel_meteoro;
 
 void setup() {
 

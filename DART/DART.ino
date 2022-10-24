@@ -25,6 +25,8 @@ void base_setup();
 void setup() {
   S_01.attach(5);//base
   S_02.attach(6);//hombro
+
+  Serial.begin(9600);
   /*
     el servom de la base puede moverse de 0-180, pero
     hacia la derecha, el objetivo estaría en el rango de 90->0,
@@ -42,8 +44,9 @@ void loop() {
  
   //esperando coneccion (bluetooth) bool para no repetir
   while(true){
-    //espero a que se conecte
-    break;
+    if(Serial.available()){
+      
+    }
   }
   //esperando params de asteroide
   //esperando senal de inicio de asteriode()
