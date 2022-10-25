@@ -1,4 +1,6 @@
 #include <Servo.h>
+#define THETA_INIT 88
+#define ALPHA_INIT 169
 
 //#include <math.h>
 Servo S_01;  //BASE
@@ -73,23 +75,22 @@ void loop() {
 
 void sm_hombro(double in_angle_deg){
   int angle=(int)round(in_angle_deg);
-  (angle>90)?
-  S_02.write(90):S_02.write(179-angle);
+  (angle>=90)?
+  S_02.write(90):
+  (angle=0)?
+  S_02.write(179):
+  S_02.write(180-angle);
 }
 
 void sm_base(double in_angle_deg, bool dir_derecha){
   int angle=(int)round(in_angle_deg);
   (dir_derecha)?
-    S_01.write(88-angle): S_01.write(88+angle);
+    S_01.write(THETA_INIT-angle): S_01.write(THETA_INIT+angle);
 }
 
 void base_setup(){
-  #define THETA_INIT 88
   S_01.write(THETA_INIT); //siempre, porque sino las funciones del servo no funcionan
   //debe calibrarse en el centro siempre
-//  
-  #define ALPHA_INIT 169
-
-    S_02.write(ALPHA_INIT); //basado en el centro de nuestro tablero, osea calibrado.
-  delay(5000); //[pruebas] para permitir rayar el punto. Pero no puede ser 0.
+  S_02.write(ALPHA_INIT); //basado en el centro de nuestro tablero, osea calibrado.
+  delay(10000); //[pruebas] para permitir rayar el punto. Pero no puede ser 0.
 }
