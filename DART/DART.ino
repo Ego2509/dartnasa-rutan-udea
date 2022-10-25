@@ -9,10 +9,13 @@ Servo S_02;  //HOMBRO
 
 double theta=0; //angulo de la base al objetivo (x)
 double alfa=0; //angulo del hombro al objetivo (y)
-double distancia_r = 2.12; //distancia servo(10cm)+servo_tablero(2m)
-double distancia_r2 = distancia_r*distancia_r; //distancia servo-tablero
-double d = 0; //distancia servo-objetivo
-double ar = 0.21; //altura piso al robot (metros)
+double distancia_r_alpha = 2.34;//distancia servo(10cm)+servo_tablero(2m) // servo hombro
+double distancia_r_theta=2.16;//base
+// double distancia_r2_theta = distancia_r_theta*distancia_r_theta; 
+double distancia_r2_alpha = distancia_r_alpha*distancia_r_alpha; //distancia servo-tablero
+double d_theta = 0; //distancia servo-objetivo
+double d_alpha = 0; //distancia laser-objetivo
+double ar = 0.175; //altura piso al robot (metros)
 
 double velocidad_asteroide=0.08;//en metros. (80mm/s)
 
@@ -63,12 +66,13 @@ void loop() {
   //reinicia loop
     //base_setup() orientar al centro inicialmente
 
-  d=sqrt(xa*xa + distancia_r2);
-  alfa = atan((y_ast-ar)/d); // 0.6 fue la altura del centro que se utilizo
+  //d_theta=sqrt(xa*xa + distancia_r2_theta);
+  d_alpha=sqrt(xa*xa + distancia_r2_alpha);
+  alfa = atan((y_ast-ar)/d_alpha); // 0.6 fue la altura del centro que se utilizo
   Serial.println(rad_deg(alfa));
   //puede variar si va para arriba
   sm_hombro(rad_deg(alfa));
-  theta= atan(xa/distancia_r);
+  theta= atan(xa/distancia_r_theta);
   sm_base(rad_deg(theta),true);
 }
 
@@ -77,7 +81,7 @@ void sm_hombro(double in_angle_deg){
   int angle=(int)round(in_angle_deg);
   (angle>=90)?
   S_02.write(90):
-  (angle=0)?
+  (angle==0)?
   S_02.write(179):
   S_02.write(180-angle);
 }

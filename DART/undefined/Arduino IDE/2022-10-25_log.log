@@ -1,0 +1,1556 @@
+2022-10-25 10:33:20 Using browser-only version of superagent in non-browser environment
+2022-10-25 10:33:21 Configuring to accept webviews on '^.+\.webview\..+$' hostname.
+2022-10-25 10:33:21 root INFO Configuration directory URI: 'file:///root/.theia'
+2022-10-25 10:33:21 root ERROR (node:10156) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+2022-10-25 10:33:21 root INFO Theia app listening on http://localhost:39549.
+2022-10-25 10:33:21 root WARN The local plugin referenced by local-dir:/root/.arduinoIDE/plugins does not exist.
+2022-10-25 10:33:21 root WARN The local plugin referenced by local-dir:/root/.arduinoIDE/extensions does not exist.
+2022-10-25 10:33:21 root WARN The local plugin referenced by local-dir:/root/.arduinoProIDE/plugins does not exist.
+2022-10-25 10:33:21 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2022-10-25 10:33:21 root INFO Resolved "cortex-debug" to a VS Code extension "cortex-debug@0.3.10" with engines:
+2022-10-25 10:33:21 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2022-10-25 10:33:21 root INFO Resolved "vscode-arduino-tools" to a VS Code extension "vscode-arduino-tools@0.0.2-beta.1" with engines:
+2022-10-25 10:33:21 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2022-10-25 10:33:21 root INFO Resolved "vscode-builtin-cpp" to a VS Code extension "cpp@1.52.1" with engines:
+2022-10-25 10:33:21 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2022-10-25 10:33:21 root INFO Resolved "vscode-builtin-json" to a VS Code extension "json@1.46.1" with engines:
+2022-10-25 10:33:21 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2022-10-25 10:33:21 root INFO Resolved "vscode-builtin-json-language-features" to a VS Code extension "json-language-features@1.46.1" with engines:
+2022-10-25 10:33:21 root INFO Deploying backend plugin "cortex-debug@0.3.10" from "/home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/cortex-debug/extension/dist/extension"
+2022-10-25 10:33:21 root INFO Deploying backend plugin "vscode-arduino-tools@0.0.2-beta.1" from "/home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle"
+2022-10-25 10:33:21 root INFO Deploying backend plugin "cpp@1.52.1" from "/home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-builtin-cpp/extension"
+2022-10-25 10:33:21 root INFO Deploying backend plugin "json@1.46.1" from "/home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-builtin-json/extension"
+2022-10-25 10:33:21 root INFO Deploying backend plugin "json-language-features@1.46.1" from "/home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain"
+2022-10-25 10:33:21 root INFO Deploy plugins list took: 65.2 ms
+2022-10-25 10:33:21 root WARN Backend ConfigServiceImpl.onStart is slow, took: 139.8 ms
+2022-10-25 10:33:21 daemon INFO Starting daemon from /home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/arduino-ide-extension/build/arduino-cli...
+2022-10-25 10:33:21 root ERROR Could not start contribution
+2022-10-25 10:33:21 daemon INFO Using config file: /root/.arduinoIDE/arduino-cli.yaml
+2022-10-25 10:33:21 daemon INFO arduino-cli version 0.20.2
+2022-10-25 10:33:21 daemon INFO Executing `arduino-cli daemon`
+2022-10-25 10:33:21 daemon INFO Setting up Prometheus metrics on :9090/metrics
+2022-10-25 10:33:21 daemon INFO {"IP":"127.0.0.1","Port":"43741"}
+2022-10-25 10:33:21 daemon INFO Daemon is running.
+2022-10-25 10:33:23 daemon INFO Checking if CLI is Bundled into the IDE
+2022-10-25 10:33:23 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:33:23 daemon INFO URL: https://downloads.arduino.cc/packages/package_index.json
+2022-10-25 10:33:23 daemon INFO Updating index [url: https://downloads.arduino.cc/packages/package_index.json]
+2022-10-25 10:33:23 root INFO Git askpass helper is listening on http://127.0.0.1:32933.
+2022-10-25 10:33:23 root INFO Using Git [2.25.1] from the PATH. (/usr/bin/git)
+2022-10-25 10:33:23 root WARN Frontend CommonFrontendContribution.configure is slow, took: 241.1 ms
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/body-parser
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/cookie
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/dompurify
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/express
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/fs-extra
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/lodash.debounce
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/lodash.throttle
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/react
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/react-dom
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/react-virtualized
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/route-parser
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/safer-buffer
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/ws
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/yargs
+2022-10-25 10:33:23 root WARN Failed to resolve module: @theia/monaco
+2022-10-25 10:33:23 root WARN Failed to resolve module: @theia/editor
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/multer
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/rimraf
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/tar-fs
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/uuid
+2022-10-25 10:33:23 root WARN Failed to resolve module: @theia/navigator
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/p-queue
+2022-10-25 10:33:23 root WARN Failed to resolve module: @theia/preferences
+2022-10-25 10:33:23 root WARN Failed to resolve module: @theia/editor-preview
+2022-10-25 10:33:23 root WARN Failed to resolve module: @theia/keymaps
+2022-10-25 10:33:23 root WARN Failed to resolve module: @theia/messages
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/diff
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/markdown-it
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/mime
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/request
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/atob
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/auth0-js
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/btoa
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/dateformat
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/deepmerge
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/glob
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/google-protobuf
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/js-yaml
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/keytar
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/ncp
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/node-fetch
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/ps-tree
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/react-select
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/react-tabs
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/temp
+2022-10-25 10:33:23 root WARN Failed to resolve module: @types/which
+2022-10-25 10:33:24 root INFO Updating index: package_index.json completed.
+2022-10-25 10:33:24 root INFO Updating index: package_index.json.sig completed.
+2022-10-25 10:33:24 daemon INFO Checking signature [error: opening signature file: open /tmp/245960317.sig: no such file or directory, index: /tmp/245960317, signaturefile: /tmp/245960317.sig]
+2022-10-25 10:33:24 daemon INFO Updating libraries index
+2022-10-25 10:33:24 root ERROR DefaultJsonSchemaContribution.registerSchemas is taking more than 500.0 ms, new schemas are ignored.
+2022-10-25 10:33:24 root INFO Updating index: library_index.json.gz completed.
+2022-10-25 10:33:24 root INFO Updating index: library_index.json.sig completed.
+2022-10-25 10:33:25 daemon INFO Checking signature [index: /root/.arduino15/package_index.json, signaturefile: /root/.arduino15/package_index.json.sig, trusted: true]
+2022-10-25 10:33:25 daemon INFO Loading hardware from: /root/.arduino15/packages
+2022-10-25 10:33:25 daemon INFO Loading package arduino from: /root/.arduino15/packages/arduino/hardware
+2022-10-25 10:33:25 daemon INFO Checking signature [error: opening signature file: open /root/.arduino15/packages/arduino/hardware/avr/1.8.4/installed.json.sig: no such file or directory, index: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/installed.json, signaturefile: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/installed.json.sig]
+2022-10-25 10:33:25 daemon INFO Adding monitor tool [protocol: serial, tool: builtin:serial-monitor]
+2022-10-25 10:33:25 daemon INFO Loaded platform [platform: {ID:"arduino:avr",Installed:"1.8.4",Latest:"1.8.5",Name:"Arduino AVR Boards"}]
+2022-10-25 10:33:25 daemon INFO Checking existence of 'tools' path: /root/.arduino15/packages/arduino/tools
+2022-10-25 10:33:25 daemon INFO Loading tools from dir: /root/.arduino15/packages/arduino/tools
+2022-10-25 10:33:25 daemon INFO Loaded tool [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2022-10-25 10:33:25 daemon INFO Loaded tool [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2022-10-25 10:33:25 daemon INFO Loaded tool [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2022-10-25 10:33:25 daemon INFO Loading package builtin from: /root/.arduino15/packages/builtin
+2022-10-25 10:33:25 daemon INFO Checking existence of 'tools' path: /root/.arduino15/packages/builtin/tools
+2022-10-25 10:33:25 daemon INFO Loading tools from dir: /root/.arduino15/packages/builtin/tools
+2022-10-25 10:33:25 daemon INFO Loaded tool [tool: Version: 5.8-arduino11 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu]]
+2022-10-25 10:33:25 daemon INFO Loaded tool [tool: Version: 1.0.2]
+2022-10-25 10:33:25 daemon INFO Loaded tool [tool: Version: 1.0.5]
+2022-10-25 10:33:25 daemon INFO Loaded tool [tool: Version: 1.0.6 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:33:25 daemon INFO Loaded tool [tool: Version: 1.3.1]
+2022-10-25 10:33:25 daemon INFO Loaded tool [tool: Version: 1.3.2 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:33:25 daemon INFO Loaded tool [tool: Version: 0.10.0 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:33:25 daemon INFO Loaded tool [tool: Version: 0.9.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:33:25 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:33:25 daemon INFO starting discovery builtin:serial-discovery process
+2022-10-25 10:33:25 daemon INFO starting discovery builtin:mdns-discovery process
+2022-10-25 10:33:25 daemon INFO started discovery builtin:mdns-discovery process
+2022-10-25 10:33:25 daemon INFO sending command HELLO 1 "arduino-cli 0.20.2" to discovery builtin:mdns-discovery
+2022-10-25 10:33:25 daemon INFO started discovery builtin:serial-discovery process
+2022-10-25 10:33:25 daemon INFO sending command HELLO 1 "arduino-cli 0.20.2" to discovery builtin:serial-discovery
+2022-10-25 10:33:25 daemon INFO from discovery builtin:serial-discovery received message type: hello, message: OK, protocol version: 1
+2022-10-25 10:33:25 daemon INFO from discovery builtin:mdns-discovery received message type: hello, message: OK, protocol version: 1
+2022-10-25 10:33:25 daemon INFO sending command START_SYNC to discovery builtin:mdns-discovery
+2022-10-25 10:33:25 daemon INFO sending command START_SYNC to discovery builtin:serial-discovery
+2022-10-25 10:33:25 daemon INFO from discovery builtin:mdns-discovery received message type: start_sync, message: OK
+2022-10-25 10:33:25 daemon INFO from discovery builtin:serial-discovery received message type: start_sync, message: OK
+2022-10-25 10:33:25 root WARN Frontend EditorNavigationContribution.onStart is slow, took: 2039.2 ms
+2022-10-25 10:33:25 root WARN Frontend WorkspaceService.onStart is slow, took: 169.3 ms
+2022-10-25 10:33:25 root INFO Board config changed: 
+2022-10-25 10:33:26 root INFO Board config changed: 
+2022-10-25 10:33:26 root INFO Changed application state from 'init' to 'started_contributions'.
+2022-10-25 10:33:26 root INFO Changed application state from 'started_contributions' to 'attached_shell'.
+2022-10-25 10:33:26 root INFO >>> Restoring the layout state...
+2022-10-25 10:33:26 root INFO <<< Nothing to restore.
+2022-10-25 10:33:26 root INFO [hosted-plugin: 10330] PLUGIN_HOST(10330) starting instance
+2022-10-25 10:33:26 root INFO [1e20bd88-92ae-480f-b7a2-ce7342eee0c6] Waiting for backend deployment took: 378.3 ms [Finished 5.021 s after frontend start]
+2022-10-25 10:33:26 root INFO Changed application state from 'attached_shell' to 'initialized_layout'.
+2022-10-25 10:33:26 root INFO Finished loading frontend application after 5.382 seconds
+2022-10-25 10:33:26 root INFO [1e20bd88-92ae-480f-b7a2-ce7342eee0c6] Sync of 5 plugins took: 396.2 ms [Finished 5.418 s after frontend start]
+2022-10-25 10:33:26 root INFO [1e20bd88-92ae-480f-b7a2-ce7342eee0c6][marus25.cortex-debug]: Loaded contributions.
+2022-10-25 10:33:26 root INFO [1e20bd88-92ae-480f-b7a2-ce7342eee0c6][arduino.vscode-arduino-tools]: Loaded contributions.
+2022-10-25 10:33:26 root INFO [1e20bd88-92ae-480f-b7a2-ce7342eee0c6][vscode.cpp]: Loaded contributions.
+2022-10-25 10:33:26 root INFO [1e20bd88-92ae-480f-b7a2-ce7342eee0c6][vscode.json]: Loaded contributions.
+2022-10-25 10:33:26 root INFO [1e20bd88-92ae-480f-b7a2-ce7342eee0c6][vscode.json-language-features]: Loaded contributions.
+2022-10-25 10:33:26 root INFO [1e20bd88-92ae-480f-b7a2-ce7342eee0c6] Load contributions of 5 plugins took: 45.5 ms [Finished 5.464 s after frontend start]
+2022-10-25 10:33:26 root WARN 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope
+2022-10-25 10:33:26 root WARN a registered grammar configuration for 'cpp' language is overridden
+2022-10-25 10:33:28 root INFO Changed application state from 'initialized_layout' to 'ready'.
+2022-10-25 10:33:28 root INFO [hosted-plugin: 10330] PLUGIN_HOST(10330): PluginManagerExtImpl/init()
+2022-10-25 10:33:28 root INFO [hosted-plugin: 10330] PLUGIN_HOST(10330): initializing(cortex-debug@0.3.10 with /home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-10-25 10:33:28 root INFO [hosted-plugin: 10330] Debugger contribution has been registered: cortex-debug
+2022-10-25 10:33:28 root INFO [hosted-plugin: 10330] PLUGIN_HOST(10330): initializing(vscode-arduino-tools@0.0.2-beta.1 with /home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-10-25 10:33:28 root INFO [hosted-plugin: 10330] PLUGIN_HOST(10330): initializing(cpp@1.52.1 with /home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-10-25 10:33:28 root INFO [hosted-plugin: 10330] PLUGIN_HOST(10330): initializing(json@1.46.1 with /home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-10-25 10:33:28 root INFO [hosted-plugin: 10330] PLUGIN_HOST(10330): initializing(json-language-features@1.46.1 with /home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-10-25 10:33:28 root INFO [hosted-plugin: 10330] PLUGIN_HOST(10330): PluginManagerExtImpl/loadPlugin(/home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2022-10-25 10:33:28 root INFO [1e20bd88-92ae-480f-b7a2-ce7342eee0c6][marus25.cortex-debug]: Started plugin.
+2022-10-25 10:33:28 root INFO [1e20bd88-92ae-480f-b7a2-ce7342eee0c6][arduino.vscode-arduino-tools]: Started plugin.
+2022-10-25 10:33:28 root INFO [1e20bd88-92ae-480f-b7a2-ce7342eee0c6][vscode.cpp]: Started plugin.
+2022-10-25 10:33:28 root INFO [1e20bd88-92ae-480f-b7a2-ce7342eee0c6][vscode.json]: Started plugin.
+2022-10-25 10:33:28 root INFO [1e20bd88-92ae-480f-b7a2-ce7342eee0c6][vscode.json-language-features]: Started plugin.
+2022-10-25 10:33:28 root INFO [1e20bd88-92ae-480f-b7a2-ce7342eee0c6] Start of 5 plugins took: 2121.0 ms [Finished 7.597 s after frontend start]
+2022-10-25 10:33:28 root INFO Starting language server: arduino:avr:mega
+2022-10-25 10:33:28 root INFO [hosted-plugin: 10330] PLUGIN_HOST(10330): PluginManagerExtImpl/loadPlugin(/home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle)
+2022-10-25 10:33:29 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:33:29 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:33:29 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:33:29 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:33:29 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:33:29 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:33:29 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:33:29 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:33:29 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:33:29 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:33:30 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:33:30 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:33:30 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:33:30 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:33:30 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:33:30 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:33:30 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:33:30 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:33:30 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:33:30 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:34:13 root WARN Frontend CommonFrontendContribution.configure is slow, took: 230.7 ms
+2022-10-25 10:34:14 root WARN Frontend EditorNavigationContribution.onStart is slow, took: 309.6 ms
+2022-10-25 10:34:14 root WARN Frontend WorkspaceService.onStart is slow, took: 128.6 ms
+2022-10-25 10:34:14 root INFO Board config changed: 
+2022-10-25 10:34:14 root INFO Changed application state from 'init' to 'started_contributions'.
+2022-10-25 10:34:14 root INFO Changed application state from 'started_contributions' to 'attached_shell'.
+2022-10-25 10:34:14 root INFO >>> Restoring the layout state...
+2022-10-25 10:34:14 root INFO <<< Nothing to restore.
+2022-10-25 10:34:14 root INFO [hosted-plugin: 10523] PLUGIN_HOST(10523) starting instance
+2022-10-25 10:34:14 root INFO Checking whether '--no-optional-locks' can be used with the current Git executable. Minimum required version is '2.15.0'.
+2022-10-25 10:34:14 root INFO '--no-optional-locks' is a valid Git option for the current Git version: '2.25.1'.
+2022-10-25 10:34:14 root INFO [58fd126e-e9b2-4d52-adce-31377d82445d] Waiting for backend deployment took: 383.4 ms [Finished 2.930 s after frontend start]
+2022-10-25 10:34:14 root ERROR DefaultJsonSchemaContribution.registerSchemas is taking more than 500.0 ms, new schemas are ignored.
+2022-10-25 10:34:15 root INFO Changed application state from 'attached_shell' to 'initialized_layout'.
+2022-10-25 10:34:15 root INFO Finished loading frontend application after 3.279 seconds
+2022-10-25 10:34:15 root INFO [58fd126e-e9b2-4d52-adce-31377d82445d] Sync of 5 plugins took: 379.7 ms [Finished 3.310 s after frontend start]
+2022-10-25 10:34:15 root INFO [58fd126e-e9b2-4d52-adce-31377d82445d][marus25.cortex-debug]: Loaded contributions.
+2022-10-25 10:34:15 root INFO [58fd126e-e9b2-4d52-adce-31377d82445d][arduino.vscode-arduino-tools]: Loaded contributions.
+2022-10-25 10:34:15 root INFO [58fd126e-e9b2-4d52-adce-31377d82445d][vscode.cpp]: Loaded contributions.
+2022-10-25 10:34:15 root INFO [58fd126e-e9b2-4d52-adce-31377d82445d][vscode.json]: Loaded contributions.
+2022-10-25 10:34:15 root INFO [58fd126e-e9b2-4d52-adce-31377d82445d][vscode.json-language-features]: Loaded contributions.
+2022-10-25 10:34:15 root INFO [58fd126e-e9b2-4d52-adce-31377d82445d] Load contributions of 5 plugins took: 42.9 ms [Finished 3.353 s after frontend start]
+2022-10-25 10:34:15 root WARN 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope
+2022-10-25 10:34:15 root WARN a registered grammar configuration for 'cpp' language is overridden
+2022-10-25 10:34:16 root INFO Changed application state from 'initialized_layout' to 'ready'.
+2022-10-25 10:34:17 root INFO [hosted-plugin: 10523] PLUGIN_HOST(10523): PluginManagerExtImpl/init()
+2022-10-25 10:34:17 root INFO [hosted-plugin: 10523] PLUGIN_HOST(10523): initializing(cortex-debug@0.3.10 with /home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-10-25 10:34:17 root INFO [hosted-plugin: 10523] Debugger contribution has been registered: cortex-debug
+2022-10-25 10:34:17 root INFO [hosted-plugin: 10523] PLUGIN_HOST(10523): initializing(vscode-arduino-tools@0.0.2-beta.1 with /home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-10-25 10:34:17 root INFO [hosted-plugin: 10523] PLUGIN_HOST(10523): initializing(cpp@1.52.1 with /home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-10-25 10:34:17 root INFO [hosted-plugin: 10523] PLUGIN_HOST(10523): initializing(json@1.46.1 with /home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-10-25 10:34:17 root INFO [hosted-plugin: 10523] PLUGIN_HOST(10523): initializing(json-language-features@1.46.1 with /home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-10-25 10:34:17 root INFO [hosted-plugin: 10523] PLUGIN_HOST(10523): PluginManagerExtImpl/loadPlugin(/home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2022-10-25 10:34:17 root INFO [58fd126e-e9b2-4d52-adce-31377d82445d][marus25.cortex-debug]: Started plugin.
+2022-10-25 10:34:17 root INFO [58fd126e-e9b2-4d52-adce-31377d82445d][arduino.vscode-arduino-tools]: Started plugin.
+2022-10-25 10:34:17 root INFO [58fd126e-e9b2-4d52-adce-31377d82445d][vscode.cpp]: Started plugin.
+2022-10-25 10:34:17 root INFO [58fd126e-e9b2-4d52-adce-31377d82445d][vscode.json]: Started plugin.
+2022-10-25 10:34:17 root INFO [58fd126e-e9b2-4d52-adce-31377d82445d][vscode.json-language-features]: Started plugin.
+2022-10-25 10:34:17 root INFO [58fd126e-e9b2-4d52-adce-31377d82445d] Start of 5 plugins took: 2123.3 ms [Finished 5.489 s after frontend start]
+2022-10-25 10:34:17 root INFO Starting language server: arduino:avr:mega
+2022-10-25 10:34:17 root INFO [hosted-plugin: 10523] PLUGIN_HOST(10523): PluginManagerExtImpl/loadPlugin(/home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle)
+2022-10-25 10:34:17 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:34:17 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:34:17 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:34:17 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:34:17 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:34:17 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:34:17 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:34:17 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:34:17 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:34:17 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:34:18 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:34:18 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:34:18 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:34:18 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:34:18 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:34:18 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:34:18 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:34:18 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:34:18 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:34:18 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:34:20 serial-service INFO >>> Disposing serial service...
+2022-10-25 10:34:20 serial-service INFO <<< Disposed serial service.
+2022-10-25 10:34:30 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:34:30 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:34:30 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:34:30 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:34:30 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:34:30 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:34:30 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:34:30 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:34:30 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:34:30 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:34:49 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyACM0
+2022-10-25 10:34:49 root INFO Attached boards and available ports changed:
+2022-10-25 10:34:49 root INFO  - Attached board: Arduino Mega or Mega 2560 [arduino:avr:mega] on /dev/ttyACM0 /dev/ttyACM0
+2022-10-25 10:34:49 root INFO ------------------------------------------
+2022-10-25 10:34:55 root INFO Board config changed: 
+2022-10-25 10:34:55 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:34:55 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 10:34:55 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:34:55 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 10:35:01 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:35:01 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:35:01 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:35:01 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:35:01 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:35:01 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:35:01 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:35:01 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:35:01 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:35:01 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:35:02 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:35:02 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 10:35:02 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:35:02 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:35:02 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:35:02 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:35:02 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2022-10-25 10:35:02 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2022-10-25 10:35:02 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2022-10-25 10:35:02 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu]]
+2022-10-25 10:35:02 daemon INFO Tool required for upload [tool: Version: 1.3.2 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:35:02 daemon INFO Tool required for upload [tool: Version: 1.0.6 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:35:02 daemon INFO Tool required for upload [tool: Version: 0.10.0 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:35:08 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:35:08 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 10:35:14 daemon INFO from discovery builtin:serial-discovery received message type: remove, port: /dev/ttyACM0
+2022-10-25 10:35:14 root INFO Attached boards and available ports changed:
+2022-10-25 10:35:14 root INFO  - Detached board: Arduino Mega or Mega 2560 [arduino:avr:mega] from /dev/ttyACM0 /dev/ttyACM0
+2022-10-25 10:35:14 root INFO ------------------------------------------
+2022-10-25 10:35:14 root INFO Board config changed: 
+2022-10-25 10:36:41 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:36:41 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:36:41 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:36:41 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:36:41 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:36:41 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:36:41 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:36:41 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:36:41 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:36:41 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:36:46 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:36:46 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:36:46 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:36:46 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:36:46 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:36:46 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:36:46 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:36:46 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:36:46 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:36:46 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:37:05 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyACM0
+2022-10-25 10:37:05 root INFO Attached boards and available ports changed:
+2022-10-25 10:37:05 root INFO  - Attached board: Arduino Mega or Mega 2560 [arduino:avr:mega] on /dev/ttyACM0 /dev/ttyACM0
+2022-10-25 10:37:05 root INFO ------------------------------------------
+2022-10-25 10:37:05 root INFO Board config changed: 
+2022-10-25 10:37:06 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:37:06 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 10:37:06 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:37:06 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 10:37:06 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:37:06 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:37:06 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:37:06 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:37:06 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:37:06 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:37:06 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:37:06 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:37:06 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:37:06 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:37:06 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:37:06 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 10:37:06 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:37:06 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:37:06 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:37:06 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:37:06 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2022-10-25 10:37:06 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2022-10-25 10:37:06 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2022-10-25 10:37:06 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu]]
+2022-10-25 10:37:06 daemon INFO Tool required for upload [tool: Version: 1.3.2 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:37:06 daemon INFO Tool required for upload [tool: Version: 1.0.6 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:37:06 daemon INFO Tool required for upload [tool: Version: 0.10.0 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:37:13 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:37:13 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 10:37:14 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:37:14 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:37:14 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:37:14 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:37:14 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:37:14 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:37:14 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:37:14 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:37:14 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:37:14 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:37:14 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:37:14 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 10:37:14 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:37:14 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:37:14 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:37:14 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:37:14 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2022-10-25 10:37:14 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2022-10-25 10:37:14 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2022-10-25 10:37:14 daemon INFO Tool required for upload [tool: Version: 1.0.6 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:37:14 daemon INFO Tool required for upload [tool: Version: 0.10.0 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:37:14 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu]]
+2022-10-25 10:37:14 daemon INFO Tool required for upload [tool: Version: 1.3.2 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:37:21 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:37:21 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 10:37:24 daemon INFO from discovery builtin:serial-discovery received message type: remove, port: /dev/ttyACM0
+2022-10-25 10:37:24 root INFO Attached boards and available ports changed:
+2022-10-25 10:37:24 root INFO  - Detached board: Arduino Mega or Mega 2560 [arduino:avr:mega] from /dev/ttyACM0 /dev/ttyACM0
+2022-10-25 10:37:24 root INFO ------------------------------------------
+2022-10-25 10:37:24 root INFO Board config changed: 
+2022-10-25 10:41:11 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:41:11 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:41:11 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:41:11 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:41:11 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:41:11 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:41:11 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:41:11 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:41:11 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:41:11 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:41:15 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:41:15 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:41:15 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:41:15 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:41:15 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:41:15 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:41:15 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:41:15 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:41:15 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:41:15 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:41:29 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyACM0
+2022-10-25 10:41:29 root INFO Attached boards and available ports changed:
+2022-10-25 10:41:29 root INFO  - Attached board: Arduino Mega or Mega 2560 [arduino:avr:mega] on /dev/ttyACM0 /dev/ttyACM0
+2022-10-25 10:41:29 root INFO ------------------------------------------
+2022-10-25 10:41:29 root INFO Board config changed: 
+2022-10-25 10:41:30 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:41:30 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 10:41:30 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:41:30 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 10:41:31 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:41:31 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:41:31 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:41:31 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:41:31 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:41:31 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:41:31 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:41:31 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:41:31 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:41:31 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:41:31 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:41:31 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 10:41:31 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:41:31 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:41:31 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:41:31 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:41:31 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2022-10-25 10:41:31 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2022-10-25 10:41:31 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2022-10-25 10:41:31 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu]]
+2022-10-25 10:41:31 daemon INFO Tool required for upload [tool: Version: 1.3.2 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:41:31 daemon INFO Tool required for upload [tool: Version: 1.0.6 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:41:31 daemon INFO Tool required for upload [tool: Version: 0.10.0 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:41:38 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:41:38 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 10:41:46 daemon INFO from discovery builtin:serial-discovery received message type: remove, port: /dev/ttyACM0
+2022-10-25 10:41:47 root INFO Attached boards and available ports changed:
+2022-10-25 10:41:47 root INFO  - Detached board: Arduino Mega or Mega 2560 [arduino:avr:mega] from /dev/ttyACM0 /dev/ttyACM0
+2022-10-25 10:41:47 root INFO ------------------------------------------
+2022-10-25 10:41:47 root INFO Board config changed: 
+2022-10-25 10:46:18 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:46:18 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:46:18 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:46:18 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:46:18 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:46:18 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:46:18 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:46:18 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:46:18 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:46:18 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:46:20 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:46:20 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:46:20 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:46:20 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:46:20 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:46:20 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:46:20 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:46:20 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:46:20 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:46:20 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:46:34 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:46:34 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:46:34 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:46:34 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:46:34 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:46:34 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:46:34 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:46:34 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:46:34 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:46:34 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:48:11 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:48:11 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:48:11 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:48:11 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:48:11 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:48:11 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:48:11 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:48:11 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:48:11 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:48:11 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:48:20 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:48:20 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:48:20 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:48:20 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:48:20 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:48:20 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:48:20 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:48:20 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:48:20 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:48:20 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:48:24 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:48:24 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:48:24 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:48:24 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:48:24 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:48:24 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:48:24 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:48:24 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:48:24 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:48:24 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:48:27 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:48:27 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:48:27 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:48:27 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:48:27 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:48:27 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:48:27 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:48:27 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:48:27 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:48:27 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:48:31 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:48:31 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:48:31 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:48:31 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:48:31 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:48:31 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:48:31 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:48:31 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:48:31 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:48:31 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:48:34 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:48:34 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:48:34 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:48:34 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:48:34 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:48:34 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:48:34 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:48:34 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:48:34 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:48:34 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:48:40 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:48:40 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:48:40 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:48:40 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:48:40 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:48:40 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:48:40 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:48:40 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:48:40 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:48:40 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:48:40 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:48:40 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:48:40 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:48:40 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:48:40 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:48:40 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:48:40 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:48:40 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:48:40 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:48:40 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:48:52 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyACM0
+2022-10-25 10:48:52 root INFO Attached boards and available ports changed:
+2022-10-25 10:48:52 root INFO  - Attached board: Arduino Mega or Mega 2560 [arduino:avr:mega] on /dev/ttyACM0 /dev/ttyACM0
+2022-10-25 10:48:52 root INFO ------------------------------------------
+2022-10-25 10:48:52 root INFO Board config changed: 
+2022-10-25 10:48:52 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:48:52 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 10:48:52 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:48:52 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 10:48:55 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:48:55 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:48:55 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:48:55 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:48:55 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:48:55 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:48:55 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:48:55 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:48:55 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:48:55 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:48:55 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:48:55 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 10:48:55 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:48:55 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:48:55 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:48:55 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:48:55 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2022-10-25 10:48:55 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2022-10-25 10:48:55 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2022-10-25 10:48:55 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu]]
+2022-10-25 10:48:55 daemon INFO Tool required for upload [tool: Version: 1.3.2 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:48:55 daemon INFO Tool required for upload [tool: Version: 1.0.6 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:48:55 daemon INFO Tool required for upload [tool: Version: 0.10.0 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:48:58 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:48:58 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:48:58 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:48:58 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:48:58 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:48:58 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:48:58 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:48:58 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:48:58 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:48:58 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:48:59 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:48:59 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 10:48:59 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:48:59 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:48:59 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:48:59 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:48:59 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2022-10-25 10:48:59 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2022-10-25 10:48:59 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2022-10-25 10:48:59 daemon INFO Tool required for upload [tool: Version: 1.3.2 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:48:59 daemon INFO Tool required for upload [tool: Version: 1.0.6 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:48:59 daemon INFO Tool required for upload [tool: Version: 0.10.0 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:48:59 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu]]
+2022-10-25 10:49:02 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:49:02 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 10:49:05 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:49:05 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 10:49:07 daemon INFO from discovery builtin:serial-discovery received message type: remove, port: /dev/ttyACM0
+2022-10-25 10:49:07 root INFO Attached boards and available ports changed:
+2022-10-25 10:49:07 root INFO  - Detached board: Arduino Mega or Mega 2560 [arduino:avr:mega] from /dev/ttyACM0 /dev/ttyACM0
+2022-10-25 10:49:07 root INFO ------------------------------------------
+2022-10-25 10:49:07 root INFO Board config changed: 
+2022-10-25 10:56:31 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:56:31 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:56:31 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:56:31 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:56:31 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:56:31 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:56:31 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:56:31 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:56:31 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:56:31 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:56:34 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:56:34 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:56:34 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:56:34 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:56:34 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:56:34 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:56:34 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:56:34 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:56:34 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:56:34 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:57:03 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyACM0
+2022-10-25 10:57:03 root INFO Attached boards and available ports changed:
+2022-10-25 10:57:03 root INFO  - Attached board: Arduino Mega or Mega 2560 [arduino:avr:mega] on /dev/ttyACM0 /dev/ttyACM0
+2022-10-25 10:57:03 root INFO ------------------------------------------
+2022-10-25 10:57:03 root INFO Board config changed: 
+2022-10-25 10:57:03 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:57:03 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 10:57:03 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:57:03 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 10:58:04 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:58:04 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:58:04 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:58:04 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:58:04 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:58:04 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:58:04 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:58:04 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:58:04 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:58:04 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:58:08 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:58:08 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:58:08 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:58:08 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:58:08 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:58:08 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:58:08 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:58:08 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:58:08 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:58:08 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:58:10 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:58:10 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:58:10 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:58:10 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:58:10 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:58:10 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:58:10 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:58:10 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:58:10 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:58:10 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:58:10 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:58:10 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 10:58:10 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:58:10 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:58:10 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:58:10 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:58:10 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2022-10-25 10:58:10 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2022-10-25 10:58:10 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2022-10-25 10:58:10 daemon INFO Tool required for upload [tool: Version: 1.3.2 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:58:10 daemon INFO Tool required for upload [tool: Version: 1.0.6 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:58:10 daemon INFO Tool required for upload [tool: Version: 0.10.0 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 10:58:10 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu]]
+2022-10-25 10:58:15 daemon INFO from discovery builtin:serial-discovery received message type: remove, port: /dev/ttyACM0
+2022-10-25 10:58:15 root INFO Attached boards and available ports changed:
+2022-10-25 10:58:15 root INFO  - Detached board: Arduino Mega or Mega 2560 [arduino:avr:mega] from /dev/ttyACM0 /dev/ttyACM0
+2022-10-25 10:58:15 root INFO ------------------------------------------
+2022-10-25 10:58:15 root INFO Board config changed: 
+2022-10-25 10:59:12 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:59:12 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:59:12 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:59:12 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:59:12 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:59:12 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:59:12 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:59:12 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:59:12 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:59:12 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:59:16 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:59:16 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 10:59:16 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 10:59:16 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 10:59:16 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 10:59:16 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 10:59:16 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 10:59:16 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 10:59:16 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 10:59:16 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 10:59:24 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyACM0
+2022-10-25 10:59:24 root INFO Attached boards and available ports changed:
+2022-10-25 10:59:24 root INFO  - Attached board: Arduino Mega or Mega 2560 [arduino:avr:mega] on /dev/ttyACM0 /dev/ttyACM0
+2022-10-25 10:59:24 root INFO ------------------------------------------
+2022-10-25 10:59:24 root INFO Board config changed: 
+2022-10-25 10:59:24 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:59:24 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 10:59:24 serial-service INFO >>> Disposing serial connection...
+2022-10-25 10:59:24 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 11:04:38 daemon INFO from discovery builtin:serial-discovery received message type: remove, port: /dev/ttyACM0
+2022-10-25 11:04:38 root INFO Attached boards and available ports changed:
+2022-10-25 11:04:38 root INFO  - Detached board: Arduino Mega or Mega 2560 [arduino:avr:mega] from /dev/ttyACM0 /dev/ttyACM0
+2022-10-25 11:04:38 root INFO ------------------------------------------
+2022-10-25 11:04:38 root INFO Board config changed: 
+2022-10-25 11:25:21 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:25:21 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:25:21 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:25:21 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:25:21 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:25:21 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:25:21 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:25:21 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:25:21 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:25:21 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:25:33 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:25:33 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:25:33 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:25:33 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:25:33 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:25:33 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:25:33 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:25:33 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:25:33 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:25:33 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:25:58 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyACM0
+2022-10-25 11:25:58 root INFO Attached boards and available ports changed:
+2022-10-25 11:25:58 root INFO  - Attached board: Arduino Mega or Mega 2560 [arduino:avr:mega] on /dev/ttyACM0 /dev/ttyACM0
+2022-10-25 11:25:58 root INFO ------------------------------------------
+2022-10-25 11:25:58 root INFO Board config changed: 
+2022-10-25 11:25:58 serial-service INFO >>> Disposing serial connection...
+2022-10-25 11:25:58 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 11:25:58 serial-service INFO >>> Disposing serial connection...
+2022-10-25 11:25:58 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 11:26:00 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:26:00 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:26:00 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:26:00 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:26:00 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:26:00 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:26:00 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:26:00 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:26:00 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:26:00 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:26:00 serial-service INFO >>> Disposing serial connection...
+2022-10-25 11:26:00 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 11:26:00 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:26:00 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:26:00 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:26:00 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:26:00 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2022-10-25 11:26:00 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2022-10-25 11:26:00 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2022-10-25 11:26:00 daemon INFO Tool required for upload [tool: Version: 0.10.0 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 11:26:00 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu]]
+2022-10-25 11:26:00 daemon INFO Tool required for upload [tool: Version: 1.3.2 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 11:26:00 daemon INFO Tool required for upload [tool: Version: 1.0.6 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 11:26:07 serial-service INFO >>> Disposing serial connection...
+2022-10-25 11:26:07 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 11:26:09 daemon INFO from discovery builtin:serial-discovery received message type: remove, port: /dev/ttyACM0
+2022-10-25 11:26:09 root INFO Attached boards and available ports changed:
+2022-10-25 11:26:09 root INFO  - Detached board: Arduino Mega or Mega 2560 [arduino:avr:mega] from /dev/ttyACM0 /dev/ttyACM0
+2022-10-25 11:26:09 root INFO ------------------------------------------
+2022-10-25 11:26:09 root INFO Board config changed: 
+2022-10-25 11:34:45 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:34:45 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:34:45 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:34:45 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:34:45 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:34:45 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:34:45 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:34:45 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:34:45 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:34:45 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:35:42 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:35:42 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:35:42 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:35:42 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:35:42 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:35:42 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:35:42 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:35:42 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:35:43 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:35:43 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:36:05 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:36:05 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:36:05 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:36:05 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:36:05 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:36:05 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:36:05 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:36:05 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:36:05 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:36:05 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:37:46 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:37:46 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:37:46 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:37:46 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:37:46 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:37:46 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:37:46 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:37:46 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:37:46 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:37:46 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:38:36 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:38:36 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:38:36 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:38:36 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:38:36 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:38:36 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:38:36 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:38:36 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:38:36 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:38:36 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:38:40 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:38:40 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:38:40 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:38:40 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:38:40 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:38:40 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:38:40 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:38:40 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:38:40 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:38:40 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:38:40 serial-service INFO >>> Disposing serial connection...
+2022-10-25 11:38:40 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 11:38:40 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:38:40 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:38:40 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:38:40 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:38:40 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2022-10-25 11:38:40 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2022-10-25 11:38:40 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2022-10-25 11:38:40 daemon INFO Tool required for upload [tool: Version: 1.0.6 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 11:38:40 daemon INFO Tool required for upload [tool: Version: 0.10.0 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 11:38:40 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu]]
+2022-10-25 11:38:40 daemon INFO Tool required for upload [tool: Version: 1.3.2 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 11:38:40 root ERROR Request upload failed with error: Upload error: Failed uploading: no upload port provided
+2022-10-25 11:38:46 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyACM0
+2022-10-25 11:38:46 root INFO Attached boards and available ports changed:
+2022-10-25 11:38:46 root INFO  - Attached board: Arduino Mega or Mega 2560 [arduino:avr:mega] on /dev/ttyACM0 /dev/ttyACM0
+2022-10-25 11:38:46 root INFO ------------------------------------------
+2022-10-25 11:38:46 root INFO Board config changed: 
+2022-10-25 11:38:46 serial-service INFO >>> Disposing serial connection...
+2022-10-25 11:38:46 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 11:38:46 serial-service INFO >>> Disposing serial connection...
+2022-10-25 11:38:46 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 11:38:47 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:38:47 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:38:47 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:38:47 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:38:47 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:38:47 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:38:47 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:38:47 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:38:47 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:38:47 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:38:47 serial-service INFO >>> Disposing serial connection...
+2022-10-25 11:38:47 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 11:38:47 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:38:47 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:38:47 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:38:47 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:38:47 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2022-10-25 11:38:47 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2022-10-25 11:38:47 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2022-10-25 11:38:47 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu]]
+2022-10-25 11:38:47 daemon INFO Tool required for upload [tool: Version: 1.3.2 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 11:38:47 daemon INFO Tool required for upload [tool: Version: 1.0.6 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 11:38:47 daemon INFO Tool required for upload [tool: Version: 0.10.0 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 11:38:54 serial-service INFO >>> Disposing serial connection...
+2022-10-25 11:38:54 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 11:38:54 daemon INFO from discovery builtin:serial-discovery received message type: remove, port: /dev/ttyACM0
+2022-10-25 11:38:54 root INFO Attached boards and available ports changed:
+2022-10-25 11:38:54 root INFO  - Detached board: Arduino Mega or Mega 2560 [arduino:avr:mega] from /dev/ttyACM0 /dev/ttyACM0
+2022-10-25 11:38:54 root INFO ------------------------------------------
+2022-10-25 11:38:54 root INFO Board config changed: 
+2022-10-25 11:44:15 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:15 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:15 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:44:15 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:44:15 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:44:15 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:44:15 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:44:15 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:44:15 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:44:15 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:44:16 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:16 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:16 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:44:16 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:44:16 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:44:16 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:44:16 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:44:16 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:44:16 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:44:16 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:44:22 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:22 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:22 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:44:22 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:44:22 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:44:22 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:44:22 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:44:22 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:44:22 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:44:22 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:44:23 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:44:24 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:24 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:24 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:44:24 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:44:24 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:44:24 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:44:24 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:44:24 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:44:24 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:44:24 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:44:27 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:27 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:27 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:44:27 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:44:27 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:44:27 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:44:27 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:44:27 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:44:27 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:44:27 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:44:28 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:44:29 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:29 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:29 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:44:29 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:44:29 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:44:29 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:44:29 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:44:29 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:44:29 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:44:29 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:44:35 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:35 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:35 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:44:35 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:44:35 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:44:35 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:44:35 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:44:35 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:44:36 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:44:36 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:44:39 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:39 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:39 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:44:39 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:44:39 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:44:39 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:44:39 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:44:39 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:44:39 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:44:39 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:44:45 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:45 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:45 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:44:45 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:44:45 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:44:45 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:44:45 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:44:45 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:44:45 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:44:45 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:44:46 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:44:47 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:47 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:47 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:44:47 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:44:47 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:44:47 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:44:47 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:44:47 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:44:47 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:44:47 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:44:51 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:51 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:51 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:44:51 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:44:51 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:44:51 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:44:51 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:44:51 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:44:51 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:44:51 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:44:53 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:44:54 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:54 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:54 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:44:54 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:44:54 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:44:54 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:44:54 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:44:54 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:44:54 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:44:54 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:44:56 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:56 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:56 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:44:56 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:44:56 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:44:56 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:44:56 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:44:56 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:44:56 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:44:56 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:44:57 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:44:58 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:58 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:44:58 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:44:58 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:44:58 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:44:58 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:44:58 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:44:58 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:44:58 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:44:58 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:44:59 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:45:00 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:00 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:00 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:45:00 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:45:00 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:45:00 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:45:00 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:45:00 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:45:00 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:45:00 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:45:04 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:04 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:04 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:45:04 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:45:04 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:45:04 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:45:04 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:45:04 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:45:04 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:45:04 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:45:05 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:45:06 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:06 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:06 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:45:06 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:45:06 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:45:06 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:45:06 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:45:06 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:45:06 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:45:06 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:45:09 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:09 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:09 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:45:09 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:45:09 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:45:09 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:45:09 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:45:09 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:45:09 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:45:09 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:45:10 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:45:12 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:12 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:12 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:45:12 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:45:12 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:45:12 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:45:12 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:45:12 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:45:12 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:45:12 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:45:13 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:45:15 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:15 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:15 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:45:15 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:45:15 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:45:15 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:45:15 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:45:15 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:45:15 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:45:15 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:45:17 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:45:18 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:18 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:18 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:45:18 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:45:18 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:45:18 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:45:18 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:45:18 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:45:18 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:45:18 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:45:33 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:33 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:33 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:45:33 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:45:33 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:45:33 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:45:33 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:45:33 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:45:34 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:45:34 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:45:35 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:45:36 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:36 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:36 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:45:36 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:45:36 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:45:36 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:45:36 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:45:36 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:45:36 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:45:36 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:45:39 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:39 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:39 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:45:39 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:45:39 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:45:39 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:45:39 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:45:39 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:45:39 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:45:39 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:45:40 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:45:41 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:45:44 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:44 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:44 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:45:44 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:45:44 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:45:44 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:45:44 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:45:44 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:45:44 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:45:44 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:45:44 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:45:46 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:45:48 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:48 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:48 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:45:48 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:45:48 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:45:48 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:45:48 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:45:48 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:45:48 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:45:48 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:45:49 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:45:51 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:51 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:51 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:45:51 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:45:51 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:45:51 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:45:51 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:45:51 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:45:51 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:45:51 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:45:53 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:45:55 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:45:55 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:55 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:55 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:45:55 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:45:55 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:45:55 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:45:55 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:45:55 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:45:55 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:45:55 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:45:56 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:45:58 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:58 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:45:58 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:45:58 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:45:58 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:45:58 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:45:58 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:45:58 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:45:58 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:45:58 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:46:06 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:46:06 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:46:06 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:46:06 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:46:06 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:46:06 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:46:06 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:46:06 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:46:06 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:46:06 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:46:07 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:46:09 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:46:09 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:46:09 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:46:09 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:46:09 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:46:09 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:46:09 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:46:09 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:46:09 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:46:09 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:46:25 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:46:25 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:46:25 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:46:25 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:46:25 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:46:25 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:46:25 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:46:25 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:46:25 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:46:25 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:46:27 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:46:28 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:46:28 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:46:28 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:46:28 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:46:28 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:46:28 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:46:28 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:46:28 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:46:28 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:46:28 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:46:29 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:46:30 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:46:30 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:46:30 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:46:30 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:46:30 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:46:30 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:46:30 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:46:30 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:46:30 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:46:30 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:46:51 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:46:51 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:46:51 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:46:51 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:46:51 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:46:51 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:46:51 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:46:51 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:46:51 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:46:51 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:46:51 root ERROR Request compile failed with error: Compilation error: exit status 1
+2022-10-25 11:47:15 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:47:15 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:47:15 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:47:15 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:47:15 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:47:15 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:47:15 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:47:15 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:47:15 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:47:15 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:47:17 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:47:18 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:47:18 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:47:18 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:47:18 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:47:18 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:47:18 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:47:18 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:47:18 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:47:18 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:47:18 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:47:18 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:47:20 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:47:22 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:47:22 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:47:22 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:47:22 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:47:22 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:47:22 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:47:22 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:47:22 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:47:22 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:47:22 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:47:24 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:47:27 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:47:27 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:47:27 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:47:27 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:47:27 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:47:27 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:47:27 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:47:27 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:47:27 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:47:27 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:47:28 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:47:29 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:47:29 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:47:29 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:47:29 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:47:29 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:47:29 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:47:29 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:47:29 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:47:29 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:47:29 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:47:30 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:47:31 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:47:31 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:47:31 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:47:31 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:47:31 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:47:31 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:47:31 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:47:31 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:47:31 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:47:31 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:47:38 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:47:38 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:47:38 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:47:38 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:47:38 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:47:38 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:47:38 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:47:38 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:47:38 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:47:38 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:47:39 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:47:41 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:47:41 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:47:41 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:47:41 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:47:41 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:47:41 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:47:41 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:47:41 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:47:41 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:47:41 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:47:41 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:47:43 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:47:43 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:47:43 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:47:43 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:47:43 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:47:43 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:47:43 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:47:43 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:47:43 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:47:43 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:47:43 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:47:45 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/egotemp/Downloads/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/vendors-node_modules_theia_callhierarchy_lib_browser_index_js-node_modules_theia_plugin-ext_l-25966f.bundle.js:1811:41
+2022-10-25 11:47:46 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:47:46 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:47:46 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:47:46 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:47:46 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:47:46 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:47:46 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:47:46 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:47:46 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:47:46 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:48:02 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:48:02 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:48:02 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:48:02 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:48:02 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:48:02 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:48:02 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:48:02 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:48:03 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:48:03 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:48:50 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:48:50 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:48:50 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:48:50 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:48:50 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:48:50 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:48:50 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:48:50 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:48:50 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:48:50 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:49:06 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyACM0
+2022-10-25 11:49:07 root INFO Attached boards and available ports changed:
+2022-10-25 11:49:07 root INFO  - Attached board: Arduino Mega or Mega 2560 [arduino:avr:mega] on /dev/ttyACM0 /dev/ttyACM0
+2022-10-25 11:49:07 root INFO ------------------------------------------
+2022-10-25 11:49:07 root INFO Board config changed: 
+2022-10-25 11:49:07 serial-service INFO >>> Disposing serial connection...
+2022-10-25 11:49:07 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 11:49:07 serial-service INFO >>> Disposing serial connection...
+2022-10-25 11:49:07 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 11:49:15 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:49:15 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:49:15 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:49:15 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:49:15 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:49:15 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:49:15 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:49:15 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:49:15 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:49:15 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:49:15 serial-service INFO >>> Disposing serial connection...
+2022-10-25 11:49:15 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 11:49:15 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:49:15 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:49:15 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:49:15 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:49:15 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2022-10-25 11:49:15 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2022-10-25 11:49:15 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2022-10-25 11:49:15 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu]]
+2022-10-25 11:49:15 daemon INFO Tool required for upload [tool: Version: 1.3.2 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 11:49:15 daemon INFO Tool required for upload [tool: Version: 1.0.6 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 11:49:15 daemon INFO Tool required for upload [tool: Version: 0.10.0 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-10-25 11:49:20 daemon INFO from discovery builtin:serial-discovery received message type: remove, port: /dev/ttyACM0
+2022-10-25 11:49:20 root INFO Attached boards and available ports changed:
+2022-10-25 11:49:20 root INFO  - Detached board: Arduino Mega or Mega 2560 [arduino:avr:mega] from /dev/ttyACM0 /dev/ttyACM0
+2022-10-25 11:49:20 root INFO ------------------------------------------
+2022-10-25 11:49:20 root INFO Board config changed: 
+2022-10-25 11:52:47 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:52:47 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:52:47 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:52:47 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:52:47 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:52:47 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:52:47 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:52:47 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:52:47 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:52:47 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:53:14 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:53:14 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:53:14 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:53:14 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:53:14 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:53:14 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:53:14 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:53:14 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:53:14 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:53:14 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:53:15 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:53:15 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:53:15 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:53:15 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:53:15 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:53:15 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:53:15 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:53:15 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:53:16 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:53:16 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:53:19 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:53:19 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:53:19 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:53:19 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:53:19 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:53:19 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:53:19 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:53:19 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:53:19 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:53:19 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:53:21 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:53:21 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:53:21 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:53:21 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:53:21 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:53:21 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:53:21 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:53:21 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:53:21 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:53:21 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:53:26 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyACM0
+2022-10-25 11:53:26 root INFO Attached boards and available ports changed:
+2022-10-25 11:53:26 root INFO  - Attached board: Arduino Mega or Mega 2560 [arduino:avr:mega] on /dev/ttyACM0 /dev/ttyACM0
+2022-10-25 11:53:26 root INFO ------------------------------------------
+2022-10-25 11:53:26 root INFO Board config changed: 
+2022-10-25 11:53:26 serial-service INFO >>> Disposing serial connection...
+2022-10-25 11:53:26 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 11:53:26 serial-service INFO >>> Disposing serial connection...
+2022-10-25 11:53:26 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-10-25 11:54:10 daemon INFO from discovery builtin:serial-discovery received message type: remove, port: /dev/ttyACM0
+2022-10-25 11:54:10 root INFO Attached boards and available ports changed:
+2022-10-25 11:54:10 root INFO  - Detached board: Arduino Mega or Mega 2560 [arduino:avr:mega] from /dev/ttyACM0 /dev/ttyACM0
+2022-10-25 11:54:10 root INFO ------------------------------------------
+2022-10-25 11:54:10 root INFO Board config changed: 
+2022-10-25 11:55:04 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:55:04 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:55:04 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:55:04 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:55:04 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:55:04 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:55:04 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:55:04 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:55:04 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:55:04 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:55:05 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:55:05 daemon INFO inventory.Store.ConfigFileUsed() /root/.arduino15/inventory.yaml
+2022-10-25 11:55:05 daemon INFO Searching tools required for board arduino:avr:mega
+2022-10-25 11:55:05 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-10-25 11:55:05 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-10-25 11:55:05 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-10-25 11:55:05 daemon INFO Adding libraries dir [dir: /root/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-10-25 11:55:05 daemon INFO Adding libraries dir [dir: /root/Arduino/libraries, location: user]
+2022-10-25 11:55:06 daemon INFO Resolving include Servo.h for arch avr
+2022-10-25 11:55:06 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-10-25 11:57:50 serial-service INFO >>> Disposing serial service...
+2022-10-25 11:57:50 serial-service INFO <<< Disposed serial service.
