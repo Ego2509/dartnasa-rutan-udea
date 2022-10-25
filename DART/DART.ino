@@ -14,8 +14,8 @@ double ar = 0.21; //altura piso al robot (metros)
 
 double velocidad_asteroide=0.08;//en metros. (80mm/s)
 
-double x_ast=0;
-double y_ast=0.6;
+double x_ast=-0.8;
+double y_ast=0.75;
 
 //double tiempo_objetivo = (1/velocidad_asteroide)*0.6; // 1 metro en horizontal, cambiar para vertical
 double xa=0.4*x_ast + 0.6; //x objetivo de asteroide a donde se dispararA
@@ -90,6 +90,6 @@ void base_setup(){
 //  
   #define ALPHA_INIT 169
 
-    S_02.write(ALPHA_INIT); //basado en el centro de nuestro tablero, osea calibrado.
-  delay(5000); //[pruebas] para permitir rayar el punto. Pero no puede ser 0.
+   S_02.write(ALPHA_INIT); //basado en el centro de nuestro tablero, osea calibrado.
+  delay(10000); //[pruebas] para permitir rayar el punto. Pero no puede ser 0.
 }
