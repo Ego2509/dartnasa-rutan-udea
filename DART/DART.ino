@@ -107,13 +107,13 @@ void loop() {
       // Se mueve hacia la derecha
       if(Dat.startsWith("R")){
         xa = 0.4*x_ast + 0.6;
-        posicionarse();
+        posicionarse(true);
         break;
       }
       // Se mueve hacia la izquierda
       if(Dat.startsWith("L")){
         xa = 0.4*x_ast -0.6;
-        posicionarse():
+        posicionarse(false):
         break;
       }
       // Se mueve hacia arriba
@@ -149,7 +149,7 @@ void loop() {
    }
 }
 
-void posicionarse(){
+void posicionarse(bool dir){
   
   d=sqrt(xa*xa + distancia_r2);
   t_proyectil = d/vi;
@@ -158,12 +158,10 @@ void posicionarse(){
   
   alfa = asin(viy/vi);
   //alfa = atan((y_ast-ar)/d); // 0.6 fue la altura del centro que se utilizo
-  Serial.println(rad_deg(alfa));
   //puede variar si va para arriba
   sm_hombro(rad_deg(alfa));
-
   theta= atan(xa/distancia_r);
-  sm_base(rad_deg(theta),true);
+  sm_base(rad_deg(theta),dir);
 
   }
 
