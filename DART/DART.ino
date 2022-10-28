@@ -118,6 +118,7 @@ void loop() {
       // Se mueve hacia la izquierda
       if(Dat.startsWith("L")){
         xa = 0.4*x_ast -0.6;
+        Serial.println("Todo bien");
         posicionarse(false);
         break;
       }
@@ -205,9 +206,9 @@ void sm_hombro(double in_angle_deg){
 void sm_base(double in_angle_deg, bool dir_derecha){
   int angle=(int)round(in_angle_deg);  
   (dir_derecha)?
-    S_01.write(88-angle)
+    S_01.write(90-angle)
     :
-    S_01.write(88+angle);
+    S_01.write(90-angle);
 }
 
 void base_setup(){
@@ -246,7 +247,8 @@ void prepararDisparador(){
     disp.write(100);
     delay(500);
     avanzarTornillo();
-    delay(10000);   
+    delay(13000);   
+    detenerTornillo();
     ban=true;
   } 
 
