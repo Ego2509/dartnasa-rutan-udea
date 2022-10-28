@@ -16,7 +16,7 @@ double alfa=0; //angulo del hombro al objetivo (y)
 double distancia_r = 2.10; //distancia servo(10cm)+servo_tablero(2m)
 double distancia_r2 = distancia_r*distancia_r; //distancia servo-tablero
 double d = 0; //distancia servo-objetivo
-double ar = 0.207; //altura piso al robot (metros)
+double ar = 0.21; //altura piso al robot (metros)
 
 double velocidad_asteroide;//en metros. (80mm/s)
 double x_ast,y_ast;
@@ -57,14 +57,14 @@ pinMode(finCar,INPUT);
 void loop() { 
  //While para recibir parametros iniciales de la app
 
-while(1){
+  while(1){
   posicionarDisparador();
   if(ban){
-    break;
-    }
+  break;
+  }
   }
  
-  while(1){
+  while(0){
     if(Serial.available()>0){ 
       Dat = Serial.readString();
       //Serial.println(Dat);
@@ -107,7 +107,7 @@ while(1){
     if(Serial.available()>0){ 
       Shoot = Serial.read();
       if(Shoot=="49"){
-       posicionarDisparador();
+       disp.write(30);
        ban=false;
         break;
       }
