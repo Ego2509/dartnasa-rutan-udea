@@ -31,6 +31,7 @@ double t_proyectil;
 double Viy; // Velocidad inicial en y del proyectil
 
 double t_ast;//Tiempo del asteroide
+double delta_xast; //distancia a recorrer del asteroide
 
 
 
@@ -72,10 +73,10 @@ void loop() {
  //While para recibir parametros iniciales de la app
 
   while(1){
-  posicionarDisparador();
-  if(ban){
-  break;
-  }
+    posicionarDisparador();
+    if(ban){
+      break;
+    }
   }
 
 
@@ -100,16 +101,19 @@ void loop() {
       if(Dat.startsWith("V")){
         Vel = Dat.substring(1).toFloat();
         velocidad_asteroide=Vel;
+        
         }
   
       // Se mueve hacia la derecha
       if(Dat.startsWith("R")){
         xa = 0.4*x_ast + 0.6;
+        posicionarse();
         break;
       }
       // Se mueve hacia la izquierda
       if(Dat.startsWith("L")){
         xa = 0.4*x_ast -0.6;
+        posicionarse():
         break;
       }
       // Se mueve hacia arriba
@@ -131,6 +135,9 @@ void loop() {
 
   //While para iniciar movimiento
   while(1){
+    delta_xast = abs(x_ast - xa);
+    t_ast = delta_xast/velocidad_asteroide;
+    t
     if(Serial.available()>0){ 
       Shoot = Serial.read();
       if(Shoot=="49"){
