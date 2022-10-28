@@ -1,10 +1,13 @@
 #include <Servo.h>
+#include <TimerOne.h>
+
 Servo S_01;  //BASE
 Servo S_02;  //HOMBRO
 Servo disp;
 
-
 #define G 9.8
+
+
 
 const int pM1=11;
 const int pM2 = 10;
@@ -28,12 +31,13 @@ double xa; //x objetivo de asteroide a donde se dispararA
 double vi = 7; //Velocidad inicial del proyectil 7m/s
 double delta_y; //yfinal - yasteroide
 double t_proyectil;
-double Viy; // Velocidad inicial en y del proyectil
+double viy; // Velocidad inicial en y del proyectil
 
 double t_ast;//Tiempo del asteroide
 double delta_xast; //distancia a recorrer del asteroide
 
-
+int contTiempoAsteroide=0;
+bool wait true;
 
 double rad_deg(double angle_rad){
   return angle_rad*180/PI;
@@ -49,23 +53,23 @@ void setup() {
   S_01.attach(5);//base
   S_02.attach(6);//hombro
   disp.attach(7);
-
-pinMode(pM1,OUTPUT);
-pinMode(pM2,OUTPUT);
-pinMode(finCar,INPUT);
+  
+  pinMode(pM1,OUTPUT);
+  pinMode(pM2,OUTPUT);
+  pinMode(finCar,INPUT);
   
   Serial.begin(9600);
   /*
-    el servom de la base puede moverse de 0-180, pero
-    hacia la derecha, el objetivo estaría en el rango de 90->0,
-    hacia la izq., el objetivo estaría en el rango 90->180.
-
-    el servom del hombro puede moverse de 180 a 90, pero
-    en el rango 100->0 básicamente no sirve porque no avanza
-    casi en dirección horizontal
-
-     */
-     base_setup();
+  el servom de la base puede moverse de 0-180, pero
+  hacia la derecha, el objetivo estaría en el rango de 90->0,
+  hacia la izq., el objetivo estaría en el rango 90->180.
+  
+  el servom del hombro puede moverse de 180 a 90, pero
+  en el rango 100->0 básicamente no sirve porque no avanza
+  casi en dirección horizontal
+  
+   */
+   base_setup();
 
 }
 
@@ -113,7 +117,7 @@ void loop() {
       // Se mueve hacia la izquierda
       if(Dat.startsWith("L")){
         xa = 0.4*x_ast -0.6;
-        posicionarse(false):
+        posicionarse(false);
         break;
       }
       // Se mueve hacia arriba
@@ -141,12 +145,31 @@ void loop() {
     if(Serial.available()>0){ 
       Shoot = Serial.read();
       if(Shoot=="49"){
-       disp.write(30);
+       Timer1.initialize(10000);
+       Timer1.attachInterrupt(contadorTiempoAsteroide);    
+
+        while(1){
+          if(!wait){
+            break;
+          }
+        }
+       
        ban=false;
-        break;
+       break;
       }
     }
    }
+}
+
+void contadorTiempoAsteroide(){
+  
+  if(contTiempoAsteroide == (t_shoot/0.01 - 1)){
+    disp.write(30);
+    wait=false; 
+    Timer1.detachInterrupt();  
+   
+  }
+  contTiempoAsteroide++;
 }
 
 void posicionarse(bool dir){
