@@ -34,10 +34,11 @@ double t_proyectil;
 double viy; // Velocidad inicial en y del proyectil
 
 double t_ast;//Tiempo del asteroide
+double t_shoot;
 double delta_xast; //distancia a recorrer del asteroide
 
 int contTiempoAsteroide=0;
-bool wait true;
+bool wait = true;
 
 double rad_deg(double angle_rad){
   return angle_rad*180/PI;
@@ -84,12 +85,12 @@ void loop() {
   }
 
 
-  while(0){
+  while(1){
     if(Serial.available()>0){ 
       Dat = Serial.readString();
       //Serial.println(Dat);
   
-      // Se envia pos de X y Y inicial
+      // Se envi2a pos de X y Y inicial
       if(Dat.startsWith("P")){
          i=Dat.indexOf(",");
          X = Dat.substring(1,i).toFloat();
@@ -104,7 +105,7 @@ void loop() {
       // Se envía la velocidad del meteorito
       if(Dat.startsWith("V")){
         Vel = Dat.substring(1).toFloat();
-        velocidad_asteroide=Vel;
+        velocidad_asteroide=Vel/1000;
         
         }
   
@@ -142,9 +143,12 @@ void loop() {
     delta_xast = abs(x_ast - xa);
     t_ast = delta_xast/velocidad_asteroide;
     t_shoot = t_ast-t_proyectil-0.35;
+ 
+
     if(Serial.available()>0){ 
       Shoot = Serial.read();
       if(Shoot=="49"){
+
        Timer1.initialize(10000);
        Timer1.attachInterrupt(contadorTiempoAsteroide);    
 
@@ -162,13 +166,15 @@ void loop() {
 }
 
 void contadorTiempoAsteroide(){
-  
-  if(contTiempoAsteroide == (t_shoot/0.01 - 1)){
+  Serial.println(t_shoot/0.01 - 1);
+  if(contTiempoAsteroide == (int)(t_shoot/0.01 - 1)){
     disp.write(30);
     wait=false; 
+    Serial.println("SIIIIIIIIIII");
     Timer1.detachInterrupt();  
    
   }
+  
   contTiempoAsteroide++;
 }
 
@@ -193,9 +199,6 @@ void sm_hombro(double in_angle_deg){
   (angle>90)?
   S_02.write(90)
   :
-  (angle<=179)?
-  S_02.write(179)
-  :
   S_02.write(180-angle);
 }
 
@@ -208,12 +211,12 @@ void sm_base(double in_angle_deg, bool dir_derecha){
 }
 
 void base_setup(){
-  #define THETA_INIT 81
+  #define THETA_INIT 88
   S_01.write(THETA_INIT); //siempre, porque sino las funciones del servo no funcionan
   //debe calibrarse en el centro siempre
 
   
-  #define ALPHA_INIT 148
+  #define ALPHA_INIT 179
   S_02.write(ALPHA_INIT); //basado en el centro de nuestro tablero, osea calibrado.
   //delay(10000); //[pruebas] para permitir rayar el punto. Pero no puede ser 0.
 }
@@ -237,12 +240,13 @@ void prepararDisparador(){
   retrocederTornillo();
   disp.write(30);
   if(digitalRead(finCar) == HIGH){
+    Serial.println("PORFAVOR");
     delay(1500);
     detenerTornillo();
     disp.write(100);
     delay(500);
     avanzarTornillo();
-    delay(13000);   
+    delay(10000);   
     ban=true;
   } 
 
