@@ -73,7 +73,7 @@ void loop() {
  //While para recibir parametros iniciales de la app
 
   while(1){
-    posicionarDisparador();
+    prepararDisparador();
     if(ban){
       break;
     }
@@ -137,7 +137,7 @@ void loop() {
   while(1){
     delta_xast = abs(x_ast - xa);
     t_ast = delta_xast/velocidad_asteroide;
-    t
+    t_shoot = t_ast-t_proyectil-0.35;
     if(Serial.available()>0){ 
       Shoot = Serial.read();
       if(Shoot=="49"){
@@ -197,18 +197,30 @@ void base_setup(){
   //delay(10000); //[pruebas] para permitir rayar el punto. Pero no puede ser 0.
 }
 
-void posicionarDisparador(){
+void retrocederTornillo(){
   digitalWrite(pM1,HIGH);
   digitalWrite(pM2,LOW);
+}
+
+void avanzarTornillo(){
+  digitalWrite(pM1,LOW);
+  digitalWrite(pM2,HIGH);
+}
+
+void detenerTornillo(){
+  digitalWrite(pM1,LOW);
+  digitalWrite(pM2,LOW);  
+}
+
+void prepararDisparador(){
+  retrocederTornillo();
   disp.write(30);
   if(digitalRead(finCar) == HIGH){
     delay(1500);
-    digitalWrite(pM1,LOW);
-    digitalWrite(pM2,LOW);
+    detenerTornillo();
     disp.write(100);
     delay(500);
-    digitalWrite(pM1,LOW);
-    digitalWrite(pM2,HIGH);
+    avanzarTornillo();
     delay(13000);   
     ban=true;
   } 
