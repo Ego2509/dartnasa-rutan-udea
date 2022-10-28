@@ -1,5 +1,4 @@
 #include <Servo.h>
-//#include <math.h>
 Servo S_01;  //BASE
 Servo S_02;  //HOMBRO
 Servo disp;
@@ -13,7 +12,7 @@ float Vel,X,Y;
 int i;
 String Shoot;double theta=0; //angulo de la base al objetivo (x)
 double alfa=0; //angulo del hombro al objetivo (y)
-double distancia_r = 2.10; //distancia servo(10cm)+servo_tablero(2m)
+double distancia_r = 2.12; //distancia servo(10cm)+servo_tablero(2m)
 double distancia_r2 = distancia_r*distancia_r; //distancia servo-tablero
 double d = 0; //distancia servo-objetivo
 double ar = 0.21; //altura piso al robot (metros)
@@ -27,9 +26,12 @@ double xa; //x objetivo de asteroide a donde se dispararA
 double rad_deg(double angle_rad){
   return angle_rad*180/PI;
   }
+
 void sm_hombro(double in_angle_deg);
 void sm_base(double in_angle_deg, bool dir_derecha);
 void base_setup();
+
+
 
 void setup() {
   S_01.attach(5);//base
@@ -51,7 +53,8 @@ pinMode(finCar,INPUT);
     casi en dirección horizontal
 
      */
-  base_setup();
+     base_setup();
+
 }
 
 void loop() { 
@@ -63,7 +66,8 @@ void loop() {
   break;
   }
   }
- 
+
+
   while(0){
     if(Serial.available()>0){ 
       Dat = Serial.readString();
@@ -101,6 +105,16 @@ void loop() {
       
     }
   }
+  //esperando coneccion (bluetooth) bool para no repetir
+
+  //esperando params de asteroide
+  //esperando senal de inicio de asteriode()
+    //iniciar reloj()
+    //apuntar
+    //ir mirando reloj para disparar
+      //disparar
+  //reinicia loop
+    //base_setup() orientar al centro inicialmente
 
   //While para iniciar movimiento
   while(1){
@@ -117,7 +131,8 @@ void loop() {
 
 void posicionarse(){
   d=sqrt(xa*xa + distancia_r2);
-  alfa = atan((0.6-ar)/d); // 0.6 fue la altura del centro que se utilizo
+  alfa = atan((y_ast-ar)/d); // 0.6 fue la altura del centro que se utilizo
+  Serial.println(rad_deg(alfa));
   //puede variar si va para arriba
   sm_hombro(rad_deg(alfa));
 
@@ -127,11 +142,14 @@ void posicionarse(){
   }
 
 void sm_hombro(double in_angle_deg){
-  int in_angle=(int)round(in_angle_deg);
-  (in_angle>90)?
+  int angle=(int)round(in_angle_deg);
+  (angle>90)?
   S_02.write(90)
   :
-  S_02.write(179-in_angle);
+  (angle<=179)?
+  S_02.write(179)
+  :
+  S_02.write(180-angle);
 }
 
 void sm_base(double in_angle_deg, bool dir_derecha){
@@ -146,6 +164,7 @@ void base_setup(){
   #define THETA_INIT 88
   S_01.write(THETA_INIT); //siempre, porque sino las funciones del servo no funcionan
   //debe calibrarse en el centro siempre
+
   
   #define ALPHA_INIT 155
   S_02.write(ALPHA_INIT); //basado en el centro de nuestro tablero, osea calibrado.
