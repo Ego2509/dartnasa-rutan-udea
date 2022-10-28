@@ -4,8 +4,8 @@ Servo S_01;  //BASE
 Servo S_02;  //HOMBRO
 Servo disp;
 
-const int pM1=10;
-const int pM2 = 11;
+const int pM1=11;
+const int pM2 = 10;
 const int finCar=17;
 bool ban = false;
 String Dat;
@@ -143,11 +143,11 @@ void sm_base(double in_angle_deg, bool dir_derecha){
 }
 
 void base_setup(){
-  #define THETA_INIT 88
+  #define THETA_INIT 81
   S_01.write(THETA_INIT); //siempre, porque sino las funciones del servo no funcionan
   //debe calibrarse en el centro siempre
   
-  #define ALPHA_INIT 155
+  #define ALPHA_INIT 148
   S_02.write(ALPHA_INIT); //basado en el centro de nuestro tablero, osea calibrado.
   //delay(10000); //[pruebas] para permitir rayar el punto. Pero no puede ser 0.
 }
