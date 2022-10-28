@@ -3,6 +3,9 @@ Servo S_01;  //BASE
 Servo S_02;  //HOMBRO
 Servo disp;
 
+
+#define G 9.8
+
 const int pM1=11;
 const int pM2 = 10;
 const int finCar=17;
@@ -15,12 +18,20 @@ double alfa=0; //angulo del hombro al objetivo (y)
 double distancia_r = 2.12; //distancia servo(10cm)+servo_tablero(2m)
 double distancia_r2 = distancia_r*distancia_r; //distancia servo-tablero
 double d = 0; //distancia servo-objetivo
-double ar = 0.21; //altura piso al robot (metros)
+double ar = 0.25; //altura piso al robot (metros)
 
 double velocidad_asteroide;//en metros. (80mm/s)
 double x_ast,y_ast;
  // 1 metro en horizontal, cambiar para vertical
 double xa; //x objetivo de asteroide a donde se dispararA
+
+double vi = 7; //Velocidad inicial del proyectil 7m/s
+double delta_y; //yfinal - yasteroide
+double t_proyectil;
+double Viy; // Velocidad inicial en y del proyectil
+
+double t_ast;//Tiempo del asteroide
+
 
 
 double rad_deg(double angle_rad){
@@ -80,6 +91,8 @@ void loop() {
          Y = Dat.substring(i+1).toFloat();
          x_ast=X;
          y_ast=Y;
+         delta_y = y_ast - ar;
+         
          
       }
   
@@ -130,8 +143,14 @@ void loop() {
 }
 
 void posicionarse(){
+  
   d=sqrt(xa*xa + distancia_r2);
-  alfa = atan((y_ast-ar)/d); // 0.6 fue la altura del centro que se utilizo
+  t_proyectil = d/vi;
+  
+  viy = (2*delta_y + G*(t_proyectil*t_proyectil))/(2*t_proyectil);
+  
+  alfa = asin(viy/vi);
+  //alfa = atan((y_ast-ar)/d); // 0.6 fue la altura del centro que se utilizo
   Serial.println(rad_deg(alfa));
   //puede variar si va para arriba
   sm_hombro(rad_deg(alfa));
