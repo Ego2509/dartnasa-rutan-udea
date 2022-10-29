@@ -206,7 +206,7 @@ void sm_hombro(double in_angle_deg){
 void sm_base(double in_angle_deg, bool dir_derecha){
   int angle=(int)round(in_angle_deg);  
   (dir_derecha)?
-    S_01.write(90-angle)
+    S_01.write(86-angle)
     :
     S_01.write(90-angle);
 }
@@ -241,8 +241,7 @@ void prepararDisparador(){
   retrocederTornillo();
   disp.write(30);
   if(digitalRead(finCar) == HIGH){
-    Serial.println("PORFAVOR");
-    delay(1500);
+    delay(1000);
     detenerTornillo();
     disp.write(100);
     delay(500);
